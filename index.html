@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Inter:wght@700&family=PT+Serif&family=Roboto+Mono:wght@300;400;500;600;700&family=Ysabeau+Infant&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=PT+Serif&family=Roboto+Mono:wght@300;400;500;600;700&family=Ysabeau+Infant&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Micro Project 2</title>
+	</head>
+	<body>
+		<header class="header">
+			<nav class="navbar">
+				<div class="logo-container">
+					<img src="assests/dappr.png" class="logo" alt="logo" />
+				</div>
+				<div class="menu">
+					<ul class="menu-items">
+						<li class="menu-item">Home</li>
+						<li class="menu-item">About us</li>
+						<li class="menu-item">Information</li>
+						<li class="menu-item dropdown">
+							More
+							<img src="assests/dropdown.svg" alt="dropdown" />
+						</li>
+					</ul>
+					<div class="input-container">
+						<input type="text" class="search-bar" placeholder="Search..." />
+						<img src="assests/search.svg" alt="search" class="search-icon" />
+					</div>
+				</div>
+				<div>
+					<img
+						src="assests/hamburger.svg"
+						alt="hamburger-icon"
+						class="hamburger"
+					/>
+				</div>
+			</nav>
+		</header>
+		<div class="main-block">
+			<div class="non-sticky">
+				<main class="container main-container">
+					<div class="image-container"></div>
+					<div class="text-area-container">
+						<textarea
+							placeholder="It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a ......"
+							class="text-area"
+							disabled
+						></textarea>
+					</div>
+				</main>
+				<img src="assests/Group 2.svg" alt="support" class="fixed-icon" />
+				<aside class="container faq-container">
+					<div class="card">
+						<p class="faq">Total Question's</p>
+						<p class="value">200,000</p>
+					</div>
+					<div class="card">
+						<p class="faq">Total Answer's</p>
+						<p class="value">105,000</p>
+					</div>
+					<div class="card">
+						<p class="faq">Participated</p>
+						<p class="value">10,000</p>
+					</div>
+					<div class="card">
+						<p class="faq">Total Passed</p>
+						<p class="value">6,000</p>
+					</div>
+				</aside>
+				<section class="container cta-section">
+					<div class="cta-container">
+						<div class="buttons">
+							<button class="footer-button active-button">Your Info</button>
+							<button class="footer-button">Bookmarks</button>
+							<button class="footer-button">Settings</button>
+						</div>
+						<div class="info">
+							<h3 class="cta-heading">Your Information</h3>
+							<ul class="key-value-pairs">
+								<li>
+									<span class="key">Name</span>&colon;<span class="value"
+										>Atul Singhal</span
+									>
+								</li>
+								<li>
+									<span class="key">Email</span>&colon;<span class="value"
+										>atul@gmail.com</span
+									>
+								</li>
+								<li>
+									<span class="key">Phone</span>&colon;<span class="value"
+										>+91 8131424888</span
+									>
+								</li>
+								<li>
+									<span class="key">Marks</span>&colon;<span class="value"
+										>500.00</span
+									>
+								</li>
+							</ul>
+							<button class="next-button">Next &rarr;</button>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="sticky-container">
+				<span class="sticky">
+					<img src="assests/Group 4.svg" alt="icon" class="icon" />
+					<img src="assests/Group 3.svg" alt="icon" class="icon" />
+					<img src="assests/logos_whatsapp-icon.svg" alt="icon" class="icon" />
+				</span>
+			</div>
+		</div>
+	</body>
+</html>
